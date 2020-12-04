@@ -1,5 +1,5 @@
 {application, earlsip,
- [{description, "An OTP library"},
+ [{description, "siphash as an erlang nif"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
@@ -9,7 +9,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
+  {maintainers, ["François Bernier"]},
   {licenses, ["Apache 2.0"]},
   {links, []}
  ]}.

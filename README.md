@@ -1,9 +1,15 @@
 earlsip
 =====
 
-An OTP library
+siphash as an erlang nif
 
 Build
 -----
 
-    $ rebar3 compile
+    $ make
+
+Usage
+-----
+```erlang
+earlsip:siphash(<<0:128>>, <<"hello, world!">>).
+```
