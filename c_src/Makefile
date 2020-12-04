@@ -19,7 +19,8 @@ deps:
 		git submodule update --init; \
 	fi
 
-.PHONY: clean
 clean:
 	rm -rf $(TARGET) *.o
 	git submodule deinit --all
+
+.PHONY: clean
